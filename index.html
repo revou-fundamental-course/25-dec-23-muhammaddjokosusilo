@@ -8,24 +8,53 @@
     <script src="js/script.js"></script>
 </head>
 <body>
+
     <!-- HEADER -->
-    <header>
-        <div class="container font-tengah">
+    <div class="container-main font-center">
+        <header>
             <h1>Welcome To Katik</h1>
             <p>Hai Sobat, Selamat Datang di Katik :)</p>
             <p>Sebuah Web Apps yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
-        </div>
-    </header>
-    <!-- KONTEN UTAMA -->
-    <main>
-        <div class="container font-tengah">
-            <div class="button-main" id="button-div">
-                <button type="button" class="button-custom active">Segitiga</button>
-                <button type="button" class="button-custom">Jajar Genjang</button>
+        </header>
+        <!-- KONTEN UTAMA -->
+        <main>
+            <!-- Pilihan Bangun Datar Start -->
+            <div>
+                <div class="button-main" id="button-div">
+                    <button type="button" class="button-custom active">Segitiga</button>
+                    <button type="button" class="button-custom">Jajar Genjang</button>
+                </div>
             </div>
-        </div>
-    </main>
-    <!-- FOOTER -->
-    <footer></footer>
+            <!-- Pilihan Bangun Datar End -->
+            <!-- Kalkulator Start -->
+                <!-- Luas Start -->
+                <div class="container-luas">
+                    <div class="text-luas">
+                        <h1>Luas Segitiga</h1>
+                    </div>
+                </div>
+                <img src="assets/segitiga.jpg" alt="Rumus Segitiga Sama Kaki">
+                <h3 class="display-flex">Rumus Luas Segitiga yaitu:</h3>
+                <h1><b>L = ½ x a x t</b></h1>
+                <h3 class="display-flex">Dimana:</h3>
+                <h3 class="display-flex">L = Luas</h3>
+                <h3 class="display-flex">a = Alas</h3>
+                <h3 class="display-flex">t = Tinggi</h3>
+                <hr>
+                <h2>Hitung Luas Segitiga</h2>
+                <form action="#">
+                    <input type="text" class="input-field">
+                </form>
+                <!-- Luas End --> 
+                  
+            <!-- Kalkulator End -->
+        </main>
+        <!-- FOOTER -->
+        <footer>
+            <div class="container">
+                
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
