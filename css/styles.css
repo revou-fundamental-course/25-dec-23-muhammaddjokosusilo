@@ -1,0 +1,28 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+#navigation-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    margin: 10px 10px 10px 10px;
+}
+.font-tengah{
+    text-align: center;
+}
+.button-main{
+    display: flex;
+    flex-direction: column;
+}
+.button-custom{
+    color: black;
+    background: white;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.active, .button-custom:hover {
+    background-color: blue;
+    color: white;
+  }
