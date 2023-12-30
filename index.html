@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalkulator Matematika</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/script.js"></script>
 </head>
 <body>
 
@@ -41,13 +40,15 @@
                     <h3 class="display-flex">t = Tinggi</h3>
                     <hr>
                     <h2>Hitung Luas Segitiga</h2>
-                    <form action="#">
+                    <form id="hitungLuas">
                         <label for="hAlas" class="display-flex"><h3>Alas</h3></label>
                         <input type="text" id="hAlas" name="Alas" placeholder="Masukan Alas">
                         <label for="hTinggi" class="display-flex"><h3>Tinggi</h3></label>
                         <input type="text" id="hTinggi" name="Tinggi" placeholder="Masukan Tinggi">
-
-                        <input type="submit" value="Submit">
+                        <div class="display-flex" id="hasilLuas"></div>
+                        <div id="inputHasilLuas"></div>
+                        <input type="submit" value="Hitung">
+                        <div id="reset"></div>
                     </form>
                 </div>
                 <!-- Luas End --> 
@@ -66,27 +67,29 @@
                     <h3 class="display-flex">c = sisi</h3>
                     <hr>
                     <h2>Hitung Keliling Segitiga</h2>
-                    <form action="#">
+                    <form id="keliling">
                         <label for="sisi1" class="display-flex"><h3>Sisi A</h3></label>
                         <input type="text" id="sisi1" name="Sisi_pertama" placeholder="Masukan Sisi A">
                         <label for="sisi2" class="display-flex"><h3>Sisi B</h3></label>
                         <input type="text" id="sisi2" name="Sisi_kedua" placeholder="Masukan Sisi B">
                         <label for="sisi3" class="display-flex"><h3>Sisi C</h3></label>
                         <input type="text" id="sisi3" name="Sisi_ketiga" placeholder="Masukan Sisi C">
-
-                        <input type="submit" value="Submit">
+                        <div class="display-flex" id="hasilkeliling"></div>
+                        <div id="inputHasilKeliling"></div>
+                        <input type="submit" value="Hitung">
+                        <div id="reset-keliling"></div>
                     </form>
                 </div>
                 <!-- Keliling End -->
-                  
             <!-- Kalkulator End -->
         </main>
         <!-- FOOTER -->
         <footer>
-            <div class="container">
-                
+            <div class="container-footer">
+                <p>Katik made by @Djok0s</p>
             </div>
         </footer>
+        <script src="js/script.js"></script>
     </div>
 </body>
 </html>
